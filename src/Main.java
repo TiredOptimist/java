@@ -20,11 +20,11 @@ public class Main {
                     break;
                 } else {
                     out.print("Число должно быть больше 9. Повторите попытку: ");
-                    in.next();
+                    in.nextLine();
                 }
             } else {
                 out.print("Некорректный ввод. Повторите попытку: ");
-                in.next();
+                in.nextLine();
             }
         }
 
